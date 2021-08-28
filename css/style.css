@@ -1,0 +1,528 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+.dog-sec {
+  position: relative;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.site-logo {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #000;
+}
+.nav-list {
+  width: 550px;
+  height: 19px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #170C04;
+  margin-left: 55px;
+}
+.icon-list {
+  width: 230px;
+  height: 18px;
+}
+.icon-link {
+  font-size: 22px;
+  margin-left: 40px;
+  color: #000;
+}
+.hero-sec {
+  margin-top: 85px;
+}
+.hero-title {
+  width: 613px;
+  height: 171px;
+  font-size: 100px;
+  line-height: 120px;
+  color: #170C04;
+  margin-bottom: 119px;
+}
+.buy-btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #E27B3A;
+  border-radius: 24px;
+  padding: 12px 30px;
+  border: 1px solid #E27B3A;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+.buy-btn:hover {
+  color: #E27B3A;
+  background:  #FFFFFF;
+  border: 1px solid #E27B3A;
+  
+}
+.details-btn {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 30px;
+  color: #E27B3A;
+  background:  #FFFFFF;
+  border-radius: 24px;
+  padding: 12px 30px;
+  text-decoration: none;
+  border: 1px solid #E27B3A;
+  box-sizing: border-box;
+  border-radius: 24px;
+  transition: 0.3s all ease;
+}
+.details-btn:hover {
+  color: #FFFFFF;
+  background: #E27B3A;
+  transition: 0.3s all ease;
+}
+.dog-img {
+  position: absolute;
+  width: 916px;
+  height: 611px;
+  top: -58px;
+  left: -47px;
+  z-index: 2;
+}
+.dog-bgi {
+  position: absolute;
+  left: 388px;
+  top: -145px;
+  z-index: 1;
+}
+/* Product Section  */
+
+.product {
+  margin-top: 200px;
+  padding: 0;
+}
+.product-list {
+  position: relative;
+  width: 360px;
+  height: 250px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.product-list:hover {
+  box-shadow: 15px 25px 60px -10px #FCF2EB;
+  border: 1px solid rgba(0, 0, 0, 0);}
+
+.food-title {
+  font-size: 25px;
+  line-height: 37px;
+  font-weight: normal;
+  margin-top: 40px;
+  text-align: center;
+  color: #170C04;
+  
+}
+
+.food-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #170C04;
+  opacity: 0.6;
+}
+.food-img {
+  position: absolute;
+  top: -20px;
+  left: 160px;
+}
+.food-vector {
+  position: absolute;
+  top: -32px;
+  left: 147px;
+}
+.food-img-2 {
+  position: absolute;
+  top: -29px;
+  left: 152px;
+}
+.food-link {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #E27B3A;
+}
+
+/* .popular-products */
+
+.popular-products {
+  margin-top: 113px;
+}
+.product-title {
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 48px;
+  text-align: center;
+  color: #170C04;
+}
+
+.product-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #170C04;
+  opacity: 0.6;
+  margin-bottom: 55px;
+}
+
+.product-img1 {
+  /* width: 373px;
+  height: 278px; */
+  padding: 71px 91px;
+}
+.product-img2 {
+  /* width: 373px;
+  height: 278px; */
+  padding: 58px 125px;
+}
+.products-list {
+  width: 555px;
+  height: 420px;
+  background: #FCF2EB;
+  border-radius: 20px;
+}
+
+.mauris {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #170C04;
+}
+.mauris-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #E27B3A;
+  margin-bottom: 66px;
+}
+.ropes-sec {
+  margin-top: 66px;
+  padding: 0;
+}
+.ropes-list {
+  width: 360px;
+  height: 273px;
+  background: #FCF2EB;
+  border-radius: 10px;
+}
+.ropes-img1 {
+  width: 321px;
+  height: 305px;
+  padding: 0px 0px 0px 34px;
+}
+.ropes-img2 {
+  padding: 48px 82px;
+}
+.ropes-img3 {
+  padding: 55px 49px 48px 49px;
+}
+.traps-mauris {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #170C04;
+}
+.traps-mauris-link {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #E27B3A;
+  text-decoration: none;
+  margin-bottom: 58px;
+}
+.view-btn-sec{
+  margin-top: 58px;
+  margin-left: -8px;
+}
+.view-btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #E27B3A;
+  padding: 12px 30px;
+  border: 1px solid #FBEBE1;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.vet {
+  margin-top: 250px;
+}
+.veterinar-sec  {
+  position: relative;
+}
+
+.veterinar-img {
+  position: absolute;
+  top: -140px;
+  left: -369px;
+  width: 691.25px;
+  height: 582.96px;
+}
+.veterinar-item {
+  margin-left: 628px;
+}
+.vet-span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  color: #E27B3A;
+  opacity: 0.8;
+}
+.vet-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px;
+  color: #170C04;
+}
+.vet-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #170C04;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}
+.appointment-btn {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  border: 1px solid #E27B3A;
+  background: #E27B3A;
+  border-radius: 24px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+.vet-details-btn {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E27B3A;
+  padding: 12px 30px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  text-decoration: none;
+  border: 1px solid #E27B3A;
+  border-radius: 24px;
+  margin-left: 30px;
+  transition: 0.3s all ease;
+}
+.vet-details-btn:hover {
+  color: #FFFFFF;
+  background: #E27B3A;
+  
+}
+.appointment-btn:hover {
+  color: #E27B3A;
+  background:  #FFFFFF;
+  border: 1px solid #E27B3A;
+}
+
+.dog-list {
+  margin-top: 220px;
+}
+.dog-list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 45px;
+  color: #170C04;
+  margin-bottom: 55px;
+}
+.dog-list-img {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 307px;
+  height: 264px;
+}
+.doggs-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: -35px;
+  color: #170C04;
+}
+.doggs-text{
+  width: 359px;
+  height: 65px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #170C04;
+  opacity: 0.6;
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+.doggs-link {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #E27B3A;
+  text-decoration: none;
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sub-btn {
+  margin-left: 45px;
+}
+
+.gallery {
+  margin-top: 120px;
+}
+.gallery-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 45px;
+  color: #170C04;
+}
+
+.gallery-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: #170C04;
+}
+.cravat {
+  width: 260px;
+  height: 190px;
+  padding: 25px 40px;
+  background: #F4E7E6;
+  border-radius: 5px;
+}
+.cr-2 {
+  background: #E9ECF2;
+}
+.cr-3 {
+  background: #F2E6E9;
+}
+.cr-4 {
+  background: #F9F3F7;
+}
+.cravat-5 {
+  width: 565px;
+  height: 549px;
+  padding: 42px 46px;
+  background: #F4E7E6;
+  border-radius: 10px;
+  margin-top: 43px;
+  margin-left: 13px;
+}
+
+.cravat-list {
+  padding: 0;
+}
+.cravat-list li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* Start footer  */
+
+footer {
+  position: relative;
+  margin-top: 150px;
+  height: 305px;
+  background: #140A03;
+}
+
+#triangle-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 94%;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 600px solid transparent;
+  border-right: 600px solid transparent;
+  border-bottom: 100px solid #140A03;
+}
+.footer-sec {
+  position: relative;
+  width: 1150px;
+  height: 155px;
+  left: -53px;
+  top: 62px;
+}
+.footer-list {
+  margin-bottom: 37px;
+}
+.footer-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer-span {
+  color: #E27B3A;
+}
+.footer-dog-logo {
+  position: absolute;
+  width: 48px;
+  height: 51px;
+  left: 613px;
+  top: -65px;
+}
+.dog-product {
+  width: 179px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer-logo-list {
+  width: 238px;
+  height: 40px;
+  margin-left: -42px;
+  margin-top: 65px;
+  
+}
+.footer-logo-link {
+  padding: 13px 15px 12px 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #000;
+}
+.dog-care {
+  margin-left: 41px;
+}
+
